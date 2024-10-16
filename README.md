@@ -1,1 +1,1 @@
-# csc_122_exception_handling
+# CSC 122 - Exception Handling

@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+1_uncaught_divide_by_zero
+2_uncaught_out_of_bounds
+3_uncaught_stack_overflow
+4_check_and_catch_divide_by_zero
+5_catch_all_exceptions
+6_catch_all_exceptions_improved
+7_cpp_standard_exceptions
