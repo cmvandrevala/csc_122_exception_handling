@@ -6,6 +6,7 @@ clean:
 	@rm -rf 5_catch_all_exceptions
 	@rm -rf 6_catch_all_exceptions_improved
 	@rm -rf 7_cpp_standard_exceptions
+	@rm -rf 8_bubbling_up_exceptions
 
 1: clean
 	g++ --std=c++11 1_uncaught_divide_by_zero.cpp -o 1_uncaught_divide_by_zero
@@ -34,3 +35,7 @@ clean:
 7: clean
 	g++ --std=c++11 7_cpp_standard_exceptions.cpp -o 7_cpp_standard_exceptions
 	./7_cpp_standard_exceptions
+
+8: clean
+	g++ --std=c++11 8_bubbling_up_exceptions.cpp -o 8_bubbling_up_exceptions
+	./8_bubbling_up_exceptions
